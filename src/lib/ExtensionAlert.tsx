@@ -11,7 +11,10 @@ export default function AdditionalContent() {
 			<p className='my-2'>
 				You must also download the browser extension to use this website.
 			</p>
-			<a href='https://chrome.google.com/webstore/detail/brother-b-pac-extension/ilpghlfadkjifilabejhhijpfphfcfhb/'>
+			<a
+				target='_blank'
+				href='https://chrome.google.com/webstore/detail/brother-b-pac-extension/ilpghlfadkjifilabejhhijpfphfcfhb/'
+			>
 				<Button size='xs' color='blue'>
 					Download Now
 					<HiArrowNarrowRight className='ml-1 h-4 w-4' />
