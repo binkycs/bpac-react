@@ -8,7 +8,7 @@ export const Print = async (
 ) => {
 	try {
 		const objDoc = IDocument;
-		const ret = await objDoc.Open('http://localhost:5173/' + labelPath);
+		const ret = await objDoc.Open('https://label.ibanks.dev/' + labelPath);
 		// most of the functions from the SDK return true/false for success
 		if (ret === true) {
 			// Set the data in a barcode/QR code inside your template file
