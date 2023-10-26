@@ -13,13 +13,13 @@ export default function DefaultNavbar() {
 					Label Printer
 				</span>
 			</Navbar.Brand>
-			<Navbar.Toggle />
-			<Navbar.Collapse>
+			{/* <Navbar.Toggle /> */}
+			{/* <Navbar.Collapse>
 				<Navbar.Link href='/' active>
 					Home
 				</Navbar.Link>
 				<Navbar.Link href='/test'>Test Route</Navbar.Link>
-			</Navbar.Collapse>
+			</Navbar.Collapse> */}
 		</Navbar>
 	);
 }
