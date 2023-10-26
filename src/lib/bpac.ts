@@ -3,11 +3,12 @@ import { IDocument, IsExtensionInstalled } from './bpac/sdk';
 export const Print = async (
 	dueMonths: number,
 	calibrationOperator: string,
-	gaugeId: string
+	gaugeId: string,
+	labelPath: string
 ) => {
 	try {
 		const objDoc = IDocument;
-		const ret = await objDoc.Open('http://localhost:5173/label.lbx');
+		const ret = await objDoc.Open('http://localhost:5173/' + labelPath);
 		// most of the functions from the SDK return true/false for success
 		if (ret === true) {
 			// Set the data in a barcode/QR code inside your template file

@@ -59,9 +59,11 @@ const App = () => {
 	return (
 		<div>
 			<Navbar />
-			<main className="px-48 space-y-6">
-				<RouterProvider router={router} />
-			</main>
+			<div className='flex h-[calc(100vh-12rem)]'>
+				<div className='m-auto space-y-6'>
+					<RouterProvider router={router} />
+				</div>
+			</div>
 		</div>
 	);
 };
